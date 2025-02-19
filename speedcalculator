@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double speed, distance, time;
+
+    cout<<"Calculate the speed of a car given the value of time and distance traveled\n";
+    cout<<"Enter time in seconds: ";
+    cin>>time;
+    cout<<"Enter distance in meters: ";
+    cin>>distance;
+
+    speed = distance/time;
+
+    cout<<"Time: "<<time<<"s\n";
+    cout<<"Distance: "<<distance<<"m\n";
+    cout<<"The speed of the car is: "<<speed<<"m/s";
+
+    return 0;
+}
