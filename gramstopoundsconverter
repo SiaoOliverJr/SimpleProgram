@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  double grams, pounds;
+
+  cout<<"Convert grams to pounds.\n";
+  cout<<"Enter grams: ";
+  cin>>grams;
+
+  pounds = grams/453.59237;
+
+  cout<<grams<<" grams = "<<pounds<<" pounds";
+
+  return 0;
+}
