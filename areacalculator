@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double area, diameter;
+    const double pi = 3.14159;
+
+    cout<<"Compute area of a circle using diameter.\n";
+    cout<<"Enter diameter: ";
+    cin>>diameter;
+
+    area = .25*pi*diameter*diameter;
+
+    cout<<"Area of circle = "<<area;
+
+return 0;
+}
